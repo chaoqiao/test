@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('SCM Checkout'){
             steps{
-                sh 'git clone git@github.com:chaoqiao/test.git'
+                git credentialsId: 'fb671213-3457-4d2a-ad1b-0bc68c984d4e', url: 'git@github.com:chaoqiao/test.git'
             }
         }
     }
