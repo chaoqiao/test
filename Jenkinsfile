@@ -6,4 +6,5 @@ pipeline {
                 sh 'git clone git@github.com:chaoqiao/test.git'
             }
         }
+    }
 }
